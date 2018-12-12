@@ -68,12 +68,12 @@ thead tr {
     height: 60px;
 }
 
-/* This sets the thead */
+/* This sets the table head element with the table row element with a pseudo class of first of typr with a table head element with a pseudo class of first of type with a font size of 2em */
 thead tr:first-of-type th:first-of-type {
     font-size: 2em;
 }
 
-/* This sets the table heead element with a table row element with a id called st and a table heading element with a pseudo class called nth of type 2 with a background color of transparent and the color black */
+/* This sets the table heead element with a table row element with a pseudo class of first of type and a table heading element with a pseudo class of first of type with a background color of transparent and the color black */
 thead tr:first-of-type th:not(:first-of-type) {
     background-color: transparent;
     color: black;
